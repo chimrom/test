@@ -1,0 +1,17 @@
+.nav_bar {
+    height: 43px;
+    background-color: #1FA181;
+    align-items: center;
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}

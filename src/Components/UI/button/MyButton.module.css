@@ -1,0 +1,15 @@
+/* @import "../../../styles/fonts.css"; */
+
+.MyBtn {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 11px 24px 11px 23px;
+    width: 196px;
+    height: 43px;
+    background-color: #0DBC91;
+    border: 0;
+    border-radius: 50px;
+}
