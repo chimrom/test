@@ -1,0 +1,11 @@
+@import "/src/styles/fonts.css";
+
+body {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    letter-spacing: 0.1 em;
+    max-width: 1920px;
+}
+
+
+

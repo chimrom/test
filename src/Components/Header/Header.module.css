@@ -1,0 +1,14 @@
+.wrapper {
+    height: 67px;
+}
+
+.wrapper_content {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
