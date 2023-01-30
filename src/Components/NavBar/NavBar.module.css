@@ -1,8 +1,7 @@
 .nav_bar {
     height: 43px;
     background-color: #1FA181;
-    align-items: center;
-   
+    align-items: center;  
 }
 
 .container {
@@ -10,7 +9,7 @@
     align-items: center;
 }
 
-a {
+.nav_bar a {
     text-decoration: none;
     color: #fff;
     margin-right: 30px;

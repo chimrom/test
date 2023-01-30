@@ -1,0 +1,32 @@
+.footer_nav_bar {
+    padding: 60px 0;
+    background-color: #08664F;
+    align-items: center;
+    margin-top: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_nav_bar a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.nav_bar_items {
+    display: flex;
+    padding-left: 50px;
+}
+
+.footer_icon {
+    margin-right: 15px;
+}

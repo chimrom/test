@@ -1,0 +1,29 @@
+.main_container {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    background: #F8FBFA;
+    max-height: 532px;
+}
+
+.main_container h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.main_head {
+    display: block;
+    width: 416px;
+    height: 141px;
+    margin: 144px 164px 14px 0;
+    letter-spacing: 1px;
+    line-height: 47px;
+}
+
+.main_text {
+    display: block;
+    width: 367px;
+    height: 72px;
+}

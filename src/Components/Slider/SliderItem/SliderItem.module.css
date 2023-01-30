@@ -1,0 +1,79 @@
+.btn_info {
+    color: #0DBC91;
+    background: transparent;
+    border: #0DBC91 1px solid;
+    margin-left: 15px;
+}
+
+.btn_info:hover {
+    background-color: #0DBC91;
+    border: 0;
+    color: #fff;
+}
+
+.btn_block {
+    display: block;
+    margin-bottom: 26px 0 56px 0;
+}
+
+.slider_content h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.slider_content h2 {
+    margin: -1px 0 13px 0;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.slider_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    width: 613px;
+    z-index: 3;
+    padding: 53px 0 0 63px;
+}
+
+.trapezoid {
+    width: 500px;
+    position: absolute;
+    border-bottom: 441px solid #E2F0EF;
+    border-right: 165px solid transparent;
+    z-index: 2;
+}
+
+.slider_img {
+    z-index: 1;
+    width: 900px;
+    height: 440px;
+    background-image: url("/public/Images/slider1.png");
+    background-repeat: no-repeat;
+}
+
+.slider_container {
+    display: flex;
+}
+
+.price_total {
+    
+}
+
+.new_price {
+    font-size: 20px;
+    color: #364844;
+}
+
+.new_price::after, .old_price::after {
+    content:" \20BD"
+    }
+
+.old_price {
+    font-size: 16px;
+    color: #868686;
+    text-decoration: line-through;
+    margin-left: 16px;
+}

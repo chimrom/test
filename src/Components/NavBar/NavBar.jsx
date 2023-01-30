@@ -18,7 +18,6 @@ const NavBar = () => {
          {navBarItems.map(({text, path}) => <NavBarItem text={text} key={text} path={path}/>)}
          </Container>
         </nav>
-    
 }
 
 export default NavBar
