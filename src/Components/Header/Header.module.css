@@ -12,3 +12,38 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.geolocation a {
+    display: flex;
+    flex-direction: column;
+    color: #364844;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.geolocation {
+    display: flex;
+    max-width: 133px;
+    max-height: 38px;
+    margin-left: 20px;
+}
+
+.text {
+    color:#868686;  
+}
+
+.phone a {
+    text-decoration: none;
+    color:#000000;
+    margin-left: 9px;
+    margin-right: 35px;
+}
+
+.logo {
+    color: #0DBC91;
+    font-size: 26px;
+}
+
+.placeholder {
+    margin-right: 6px;
+}

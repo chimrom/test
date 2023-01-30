@@ -1,6 +1,4 @@
-/* @import "../../../styles/fonts.css"; */
-
-.MyBtn {
+.my_btn {
     font-family: 'PT Sans Caption', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -12,4 +10,10 @@
     background-color: #0DBC91;
     border: 0;
     border-radius: 50px;
+}
+
+.my_btn:hover {
+    background-color: transparent;
+    color: #0DBC91;
+    border: #0DBC91 1px solid;
 }
