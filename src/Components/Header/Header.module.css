@@ -1,49 +1,53 @@
 .wrapper {
-    height: 67px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 6;
 }
 
 .wrapper_content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
 }
 
 .geolocation a {
-    display: flex;
-    flex-direction: column;
-    color: #364844;
-    text-decoration: none;
-    font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  color: #364844;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .geolocation {
-    display: flex;
-    max-width: 133px;
-    max-height: 38px;
-    margin-left: 20px;
+  display: flex;
+  max-width: 133px;
+  max-height: 38px;
+  margin-left: 20px;
 }
 
 .text {
-    color:#868686;  
+  color: #868686;
 }
 
 .phone a {
-    text-decoration: none;
-    color:#000000;
-    margin-left: 9px;
-    margin-right: 35px;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 9px;
+  margin-right: 35px;
 }
 
 .logo {
-    color: #0DBC91;
-    font-size: 26px;
+  color: #0dbc91;
+  font-size: 26px;
 }
 
 .placeholder {
-    margin-right: 6px;
+  margin-right: 6px;
 }

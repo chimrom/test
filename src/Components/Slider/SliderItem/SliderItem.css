@@ -1,0 +1,14 @@
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nextSlide {
+  opacity: 1;
+  transform: translateX(1140px);
+}
+
+.lastSlide {
+  opacity: 1;
+  transform: translateX(-1140px);
+}
