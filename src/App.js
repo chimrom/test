@@ -5,17 +5,16 @@ import Main from "./Components/Main/Main";
 import Slider from "./Components/Slider/Slider";
 import Footer from "./Components/Footer/Footer";
 
-import './styles/main.css'
-import './styles/icon.css'
+import "./styles/main.css";
+import "./styles/icon.css";
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <NavBar/>
-     <Main/>
-     <Slider/>
-     <Footer/>
+      <Header />
+      <Main />
+      <Slider />
+      <Footer />
     </div>
   );
 }
