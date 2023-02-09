@@ -19,8 +19,12 @@ const Main = () => (
           </p>
         </span>
       </div>
-      <div className={styles.main_img}>
-        <img src="images/img.png" className={styles.main_img} />
+      <div>
+        <img
+          src="images/img.png"
+          className={styles.main_img}
+          alt="Фото больницы"
+        />
       </div>
     </Container>
   </div>

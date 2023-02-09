@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ArrowIcon from "../../public/icons/arrow.svg";
 import Container from "../Container/Container";
 import Icon from "../Icon/Icon";
@@ -10,17 +10,34 @@ import styles from "./Slider.module.css";
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const { id, title, subTitle, services, price, oldPrice } = data[currentIndex];
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (currentIndex < data.length - 1) {
+        setCurrentIndex((prevState) => prevState + 1);
+      } else {
+        setCurrentIndex(0);
+      }
+    }, 4000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentIndex]);
+
+  const { title, subTitle, services, price, oldPrice } = data[currentIndex];
 
   const handleLeftArrowClick = () => {
-    if (currentIndex) {
+    if (currentIndex > 0) {
       setCurrentIndex((prevState) => prevState - 1);
+    } else {
+      setCurrentIndex(data.length - 1);
     }
   };
 
   const handleRightArrowClick = () => {
     if (currentIndex < data.length - 1) {
       setCurrentIndex((prevState) => prevState + 1);
+    } else {
+      setCurrentIndex(0);
     }
   };
 

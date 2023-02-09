@@ -20,8 +20,8 @@ const items = [
       { text: "Женские штучки 3" },
       { text: "Женские штучки 4" },
     ],
-    price: 2800,
-    oldPrice: 3500,
+    price: 28000,
+    oldPrice: 35000,
   },
   {
     title: "CHECK-UP",
@@ -32,7 +32,7 @@ const items = [
       { text: "Велосипеды" },
       { text: "Рандомные вещи" },
     ],
-    price: 2800,
+    price: 800,
     oldPrice: 3500,
   },
   {
@@ -43,7 +43,7 @@ const items = [
       { text: "Вейпы" },
       { text: "Дурацкие прически" },
     ],
-    price: 2800,
+    price: 228,
     oldPrice: 3500,
   },
 ];

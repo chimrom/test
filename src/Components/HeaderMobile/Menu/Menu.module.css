@@ -1,0 +1,13 @@
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(69, 146, 127, 0.9);
+  backdrop-filter: blur(2px);
+  top: 65px;
+  left: 0;
+  padding-left: 19px;
+  color: #fff;
+  z-index: 10;
+  padding-top: 48px;
+}
