@@ -24,7 +24,7 @@ const Header = () => {
             <span className={styles.placeholder}>
               <Icon src={Placeholder} />
             </span>
-            <a href="#">
+            <a href="https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939">
               Ростов-на-Дону
               <br /> <span className={styles.text}>ул. Ленина, 2Б</span>
             </a>

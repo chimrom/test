@@ -28,7 +28,9 @@ const HeaderMobile = () => {
         </div>
         <div className={styles.phone}>
           <a href="tel:+78630000000">+7(863) 000 00 00</a>
-          <a href="#">Ростов-на-Дону</a>
+          <a href="https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939">
+            Ростов-на-Дону
+          </a>
         </div>
         <Menu show={show}>
           {navBarItems.map(({ text, path }) => (

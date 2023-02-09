@@ -5,11 +5,26 @@ import NavBarItem from "./NavBarItem/NavBarItem";
 import styles from "./NavBar.module.css";
 
 const navBarItems = [
-  { text: "О клинике", path: "#" },
-  { text: "Услуги", path: "#" },
-  { text: "Специалисты", path: "#" },
-  { text: "Цены", path: "#" },
-  { text: "Контакты", path: "#" },
+  {
+    text: "О клинике",
+    path: "https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939",
+  },
+  {
+    text: "Услуги",
+    path: "https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939",
+  },
+  {
+    text: "Специалисты",
+    path: "https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939",
+  },
+  {
+    text: "Цены",
+    path: "https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939",
+  },
+  {
+    text: "Контакты",
+    path: "https://rostov.hh.ru/resume/3c751ac8ff0b98b86e0039ed1f6477464e4939",
+  },
 ];
 
 const NavBar = () => {
