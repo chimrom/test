@@ -3,9 +3,7 @@
 }
 
 .wrapper {
-  display: flex;
   background: #f8fbfa;
-  max-height: 532px;
   margin-top: 110px;
 }
 
@@ -27,6 +25,7 @@ p {
   display: block;
   width: 367px;
   height: 72px;
+  padding-top: 15px;
 }
 
 .main_img {
@@ -35,14 +34,20 @@ p {
 }
 
 .main_text_wrapper {
-  padding: 144px 164px 162px 0;
+  padding: 144px 164px 148px 0;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1140px) {
   .main_container {
     flex-direction: column-reverse;
   }
   .main_text_wrapper {
     padding: 0;
+  }
+}
+
+@media (max-width: 645px) {
+  .wrapper {
+    margin-top: 45px;
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import clsx from "clsx";
 import Placeholder from "../../public/icons/placeholder.svg";
 import WhatsappHeader from "../../public/icons/whatsappHeader.svg";
@@ -6,10 +6,15 @@ import MyButton from "../UI/button/MyButton";
 import Container from "../Container/Container";
 import Icon from "../Icon/Icon";
 import NavBar from "../NavBar/NavBar";
+import Modal from "../Modal/Modal";
 
 import styles from "./Header.module.css";
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(false);
+  const openModal = () => {
+    setIsActive(true);
+  };
   return (
     <div className={styles.wrapper}>
       <Container className={styles.container}>
@@ -32,7 +37,10 @@ const Header = () => {
               <a href="tel:+78630000000">+7(863) 000 00 00</a>
             </span>
           </div>
-          <MyButton text={"Записаться на прием"} />
+          <MyButton text={"Записаться на прием"} onClick={openModal} />
+          <Modal isActive={isActive} setIsActive={setIsActive}>
+            форма
+          </Modal>
         </span>
       </Container>
       <NavBar />
