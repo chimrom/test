@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import clsx from "clsx";
 import Placeholder from "../../public/icons/placeholder.svg";
 import WhatsappHeader from "../../public/icons/whatsappHeader.svg";
